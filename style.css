@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.info-page {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.info-page img {
+.info img {
   width: 100%;
 }
-.info-page .info-page__link {
+.info .info__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.info-page { text-align: center;
+.info { text-align: center;
 }
 }
-.main-page_centered {
+.tasks {
   display: block;
   width: 500px;
   margin: 0 auto 0;
