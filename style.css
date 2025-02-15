@@ -4,23 +4,28 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .info__img {
   width: 100%;
 }
+
 .info__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.info { text-align: center;
+  .info { 
+    text-align: center;
+  }
 }
-}
+
 .tasks {
   display: block;
   width: 500px;
@@ -30,16 +35,20 @@
 .task__row-wrapper {
   display: flex;
 }
+
 .tasks-list {
   margin:0;
   padding: 0px;
 }
+
 .task, .heading {
   list-style:none;
 }
+
 .task__input,.btn{
   outline:none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -49,10 +58,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 h3,
 .task__label[for="new-task"] {
   color: #333;
@@ -64,6 +76,7 @@ h3,
   margin: 0;
   text-transform: uppercase;
 }
+
 .task__input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -76,22 +89,26 @@ h3,
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task__input[type="text"]:focus {
   flex-grow: 1;
   color: #333;
 }
 
 /* New Task */
+
 .task__label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
+
 .task__input#new-task {
   flex-grow: 1;
   width: 318px;
 }
 
 /* Task list */
+
 .task {
   overflow: hidden;
   padding: 20px 0;
@@ -101,6 +118,7 @@ h3,
   justify-content: space-between;
   align-items: center;
 }
+
 .task > * {
   vertical-align: middle;
 }
@@ -108,31 +126,37 @@ h3,
 .task > .task__input[type="checkbox"] {
   margin: 0 10px;
 }
+
 .task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task__input {
   width: 226px
 }
+
 .btn.delete .btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .btn.delete .btn__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 .tasks-list#completed-tasks .task__label {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
+
 .tasks-list .task .task__input[type=text] {
   display:none
 }
