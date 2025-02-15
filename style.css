@@ -1,4 +1,5 @@
 /* Basic Style */
+
 .wrapper {
   background-color: #f8f8f8;
   color: #333;
@@ -37,16 +38,18 @@
 }
 
 .tasks-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
-.task, .heading {
-  list-style:none;
+.task, 
+.heading {
+  list-style: none;
 }
 
-.task__input,.btn {
-  outline:none;
+.task__input,
+.btn {
+  outline: none;
 }
 
 .btn {
@@ -65,7 +68,7 @@
 
 /* Heading */
 
-h3,
+.heading,
 .task__label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -113,7 +116,6 @@ h3,
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,7 +137,7 @@ h3,
 }
 
 .task__input {
-  width: 226px
+  width: 226px;
 }
 
 .btn.delete .btn__img {
@@ -158,14 +160,14 @@ h3,
 /* Edit Task */
 
 .tasks-list .task .task__input[type=text] {
-  display:none
+  display: none;
 }
 
 .tasks-list .task.edit-mode .task__input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .tasks-list .task.edit-mode .task__label {
-  display:none;
+  display: none;
 }
