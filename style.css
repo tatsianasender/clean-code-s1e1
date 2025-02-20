@@ -94,7 +94,6 @@
 }
 
 .task__input[type="text"]:focus {
-  flex-grow: 1;
   color: #333;
 }
 
